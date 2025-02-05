@@ -83,6 +83,6 @@ def imdvpoint(movies):
         if movie["category"]==name:
             avg+=movie["imdb"]
             cnt+=1
-    return avg/cnt
+            return avg/cnt
 print(imdvpoint(movies))
         
