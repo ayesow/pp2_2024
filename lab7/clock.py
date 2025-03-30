@@ -35,6 +35,7 @@ while not done:
     rotated_rightarm = pygame.transform.rotate(pygame.transform.scale(rightarm, (800, 600)), -minute_angle)
     rightarmrect = rotated_rightarm.get_rect(center=(800 // 2, 600 // 2 + 12))
     screen.blit(rotated_rightarm, rightarmrect)
+
     
     rotated_leftarm = pygame.transform.rotate(pygame.transform.scale(leftarm, (40.95, 682.5)), -second_angle)
     leftarmrect = rotated_leftarm.get_rect(center=(800 // 2, 600 // 2 + 10))
